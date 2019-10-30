@@ -111,7 +111,7 @@
             <string>$FACEBOOK_HYBRID_APP_EVENTS</string>
         </config-file>
 
-        <config-file target="*-Info.plist" parent="CFBundleURLTypes">
+        <!--edit-config file="*-Info.plist" target="CFBundleURLTypes" mode="merge">
           <array>
             <dict>
               <key>CFBundleURLSchemes</key>
@@ -120,7 +120,7 @@
               </array>
             </dict>
           </array>
-        </config-file>
+        </edit-config-->
 
         <config-file target="*-Info.plist" parent="NSAppTransportSecurity">
           <dict>
